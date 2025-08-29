@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+#itemList, #countdownList {
+  list-style-type: square;
+  margin-top: 10px;
+}
